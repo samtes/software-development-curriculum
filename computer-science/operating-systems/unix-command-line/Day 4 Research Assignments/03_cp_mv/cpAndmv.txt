@@ -1,0 +1,99 @@
+Cp
+
+	stands for copy
+
+	allows you to copy files and directorys
+
+
+	- Copy a file to a new location
+
+		ex:
+		cp fileName.txt ./DestinationFolder
+
+
+
+	- Copy a directory to a new location using the -r argument (recursive)
+
+		ex:
+		cp -r folderName ./DestinationFolder
+
+
+
+	- Copy everything from one file to another
+
+	 	- use the -u (update) argument so you won't overwrite files with the same name
+
+	 	ex: 
+	 	cp -u folderName/* ./destinationFolder
+
+
+
+
+	 - Use the -v (verbose) argument to print out what you're doing
+
+	 	ex:
+	 	cp -v fileName.txt ./DestinationFolder
+
+	 	prints out: 'fileName.txt' -> './DestinationFolder/fileName.txt'
+
+
+
+	 - Use the -i (interactive) argument to get a prompt before a file is overwritten
+
+	 	ex:
+	 	cp -i fileName.txt ./DestinationFolder
+
+
+
+	 - say yes to any overwrite prompt
+
+	 	ex:
+	 	yes | cp Folder/* ./NewFolder
+
+
+
+MV
+
+	Move or rename files
+
+
+
+	- move a file
+
+		mv fileName.txt ./DestinationFolder
+
+
+	- move a directory (note: you don't need the -r argument)
+
+		mv folderName ./DestinationFolder
+
+
+	- Rename a file
+
+		mv fileName.txt newFileName.txt
+
+
+	- Rename and move a file
+
+		mv fileName.txt ./DestinationFolder/newFileName.txt
+
+
+	- Move several files with similar file extension
+
+		mv *jpg ./images
+
+
+	- Move a file up to the home directory
+
+		mv fileName.txt ~/file.txt
+
+
+
+References
+
+	man pages
+
+	http://www.computerhope.com/unix/ucp.htm
+
+	http://en.wikipedia.org/wiki/Mv
+

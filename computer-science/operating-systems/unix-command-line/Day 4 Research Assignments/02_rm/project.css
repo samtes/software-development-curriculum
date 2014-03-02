@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+html { margin:0; padding:0; font-style:normal; 
+	font-family: Arial, Helvetica, sans-serif; color: black;
+	background: rgb(40, 66, 83); }
+
+body { margin: 0 auto; padding: 10px; width: 960px; 
+	height: 1000px; background: rgb(77, 113, 134); }
+
+h1 { font-size: 3.6em; color: rgb(200, 200, 200); }
+
+p { font-size: 2em; padding: 0 35px; } 
+
+.smaller { font-size: .7em; color: rgb(239, 140, 18); }
+
+h2 { font-size: 2em; }
+
+.right { color: rgb(244, 167, 32); padding: 0 35px; }
+
+.one { text-align: right; width: inherit; }
+
+.command { color: rgb(239, 140, 18); }

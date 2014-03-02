@@ -1,0 +1,23 @@
+chmod
+
+From the ls command you will see a bunch of gobbedlygook on the left for each file/folder. Those ten characters denote if it is a file or directory. The rest of the nine are three sets of three characters to indicate who can screw around with the file/folder in question.
+
+you, my classmates (or group), others (not part of your team)
+
+Then within each type you see three characters to denote what that type can do to the file/folder. For instance, each type of user can read, write and/or execute the file/folder in question.
+
+Now, to change the permissions for you, your group, and/or others outside your group, the chmod command comes in. Its basic form is:
+
+chmod 644 myfile.txt          This sets myfile.txt so I can read/write, group, others can read only.
+
+How do I know what secret number to type in? For example, 6 = rw, 4= r, 5=r,x, 2=w, 0=nothing
+
+chmod -R 744, forces all files in all subfolders to give owner execute, all others read only.
+chmod . 644 forces all files in current folder, no subfolders, to give owner read/write, all others read
+
+
+For web servers,
+chmod -R 755 /www recursively gives me rwx, all others read and execute  This is the most common command and will come up a lot in web work.
+
+Here's a bonus on how to figure out the secret number. Look at the calculator located here:
+http://www.unixref.com/guides/chmod-guide.php

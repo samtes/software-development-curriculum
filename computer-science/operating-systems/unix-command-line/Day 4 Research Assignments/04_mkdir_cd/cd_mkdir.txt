@@ -1,0 +1,11 @@
+CD
+
+  This is the change directory command.  It allows you to type a file path from where ever you are to where every you want to go.  It accepts two flags
+  -L (default).  CD assumes it has -L even if you don't pass it.  This tells CD to to use any kind of link it finds (physical and symbolic)
+  -P: This tells CD to only use Physical links.  In other words, to ignore symbolic links
+
+  mkdir
+
+ Create a new directory (folder) where ever you happen to be sitting.  Mkdir has a few flags to pass but really only one seems useful to us right now.
+
+ -p Using this flag will create the new direcory at the parent level.  For example, if you are currenlty in Parent/Child and you want to create a new folder (parent-2) and you pass the -p flag, mkdir will create that new folder above the Child folder which is the same level as the current Parent folder. 

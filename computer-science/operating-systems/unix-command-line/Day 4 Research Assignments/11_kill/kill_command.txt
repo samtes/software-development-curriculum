@@ -1,0 +1,54 @@
+KILL COMMAND
+
+definition: to terminate a process or file
+
+view documentation in command line: man kill
+
+When to use: you computer may freeze and you need to shut a process down without a graphical interface. Sometimes it is faster to use the kill command.
+
+How to use:
+- to kill an individual file you will need to now the PID, process id number
+- enter "ps -A" or "ps -e" to view all processes running 
+
+other options include: 
+ps -A  // to get the pid, can be combined with grep
+	-or-
+	
+	pidof <name>
+	
+	-or-
+	
+	pgrep <name>
+
+	kill <pid>
+
+- pid's are listed on the far left corner of the listing
+- type kill pid to end the process
+
+pkill has the -f parameter that allows you to match against the entire command. So for your example, you can: pkill -f "gedit file.txt"
+
+*kill also has options. The most common are:
+	kill -9 pid#  --> KILL this is the murder death kill command
+	kill -1 pid#  --> HUP this restarts the process
+	kill -6 pid#  --> ABRT this quits the process and can be used for debugging
+	
+
+KILLALL COMMAND
+
+- killall ends process by name
+
+view documentation in command line: man killall
+
+*be careful with this command some programs
+
+How to use EX.:
+in command line type
+	killall Firefox
+
+
+REFERENCES:
+	-manual in command line for kill and killall
+	-The UNIX and Linux Forums: http://www.unix.com/unix-dummies-questions-answers/1207-hup.html
+	-When Force Quit Doesn’t Work – There’s Still Kill: http://murphymac.com/when-force-quit-doesnt-work-theres-still-kill/
+	-How to View and Kill Processes Using the Terminal in Mac OS X | ChrisWrites.com: http://www.chriswrites.com/2012/01/how-to-view-and-kill-processes-using-the-terminal-in-mac-os-x/
+	- kill(1): terminate process - Linux man page: http://linux.die.net/man/1/kill

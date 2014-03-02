@@ -1,0 +1,33 @@
+
+with cat, we are going to concatenate, but it prints it out just like less or more
+
+less lets me page through everything. so does more
+
+cat spews the whole thing to the scree and you have to scroll back so there is no paging
+
+cat can also print more than one file to the command line
+
+cat file1 file2
+
+you can also concat files and create a new file that contains the content on both pages
+
+cat file1 file2 > file3
+
+
+Other options:
+
+cat -e cat.txt - shows a special character that indicates an end of a line
+
+cat -n cat.txt - displays the line number for each line in the file
+
+Finale
+Treat Terminal as text editor to capture input into the file listed here
+
+cat > cat14.txt <<EOF
+
+Sources:
+Advanced Bash-Scripting Guide: http://tldp.org/LDP/abs/html/here-docs.html
+
+BSD General Commands Manual-CAT
+
+

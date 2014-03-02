@@ -1,0 +1,23 @@
+The Man command is used to show help (Manual) files in the command prompt.
+
+It will list all the switches available to a certain command.
+
+You can also use it to look it other commands sometimes.
+
+In the command prompt type "man mv"
+
+You can use up and down arrows on the keyboard to navigate. You can also use Page up/Page down to navigate as well.
+
+You can also press the letter q to quit the man page.
+
+Near the bottom of the page, you will see suggested commands. MV will also suggest "rename."
+
+The command I will be using is "tar" Tar (tarball) is a way of zipping files in Unix. If you enter "man tar" it will pull up the man page for tar. Above suggested commands in the man page, you will also see a listing for common usage. The common usage for tar includes "tar -xf archive.tar" This is the method used to unzip a tar file.
+
+For demonstration purposes, I am creating a GZIP file, which is a greater compression than tar.
+
+tar -cf NSS-Syllabus.tar NSS-Syllabus/
+Will turn a folder into a .tar file
+
+gzip -c NSS-Syllabus.tar > NSS-Syllabus.tar.gz
+Will further compress that .tar into a .tar.gz file

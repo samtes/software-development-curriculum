@@ -1,0 +1,36 @@
+nss-capstone-2-example
+======================
+
+This is the example project we're going through in class for Capstone 2
+
+This document itself is a sample README we wrote in class. What it lacks in grammer, it made up for in speed.
+
+# Grocery Price Tracker
+
+## Elevator Pitch
+
+I can never tell if a sale is actually good or if it's just marketing bullshit.  I want to track my grocery costs so I can tell if a sale is good.
+
+## Project Requirements
+
+  * Simple feature set
+  * CRUD
+  * A nice complex query in there somewhere
+
+## Feature List:
+
+   * I can enter information from my receipt and products: Product Name, Calories/Unit, Price
+   * I can update/delete information that is incorrect
+   * I can look at the full list of products
+   * I can get a report of my most and least expensive products per calorie
+
+## Interesting Query:
+
+Figuring out which foods are most economical per calorie.
+
+## Data Source:
+
+Calorie Data from the USDA (data.gov)
+
+Enter my own receipts for pricing.
+

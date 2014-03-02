@@ -1,0 +1,100 @@
+## Command to generate the layout: "neato -Tpng thisfile > thisfile.png"
+
+digraph NSS {
+
+
+## Major Goals
+subgraph cluster_0 {
+	style=filled;
+	color=lightgrey;
+	node [shape=box3d];
+	build[label="Build On Existing Rails Applications"];
+	teams[label="Work On Cross-Disciplinary Teams"];
+	grow[label="Grow Your Skills Independently"];
+	depth_and_breadth[label="Understand the Depth and Breadth of the Field"];
+	tdd[label="Understand and Utilize Test Driven Development"];
+	label = "Overarching Class Goals";
+	}
+
+## Major Assignments
+node [shape=note];
+calapp[label="Capstone 1:\nCal (Solo)"];
+cliapp[label="Capstone 2:\nCommand Line Ruby Application (Solo)"];
+basicrailsapp[label="Capstone 3:\nBuilding on a Basic Rails Application (Team)"];
+capstone[label="Capstone 4:\nAdvanced Rails Application (Solo)"];
+# example_major_assignment[label="Major Assignment"];
+
+tdd -> calapp;
+tdd -> cliapp;
+tdd -> basicrailsapp;
+tdd -> capstone;
+build -> basicrailsapp;
+grow -> calapp;
+grow -> cliapp;
+grow -> capstone;
+teams -> basicrailsapp;
+
+## Minor Assignments
+node [shape=invhouse];
+# example_minor_assignment[label="General Assignment"];
+lightning[label="Lightning Talks"]
+guestlectures[label="Guest Lectures"]
+
+depth_and_breadth -> lightning
+depth_and_breadth -> guestlectures
+grow -> lightning
+
+
+## Topics
+# node [shape=box];
+# example_general_topic[label="General Topic"]
+
+# general_topic;
+# sw_req[label="Software Requirements & Specifications"];
+
+# build -> rails;
+# rails -> "Rails Asset Pipeline"
+# rails -> "Authentication and Authorization Libraries"
+# rails -> "ActiveRecord Scopes"
+# "ActiveRecord Scopes" -> "SQL"
+# calapp -> sw_req
+# cliapp -> sw_req
+# basicrailsapp -> sw_req
+# capstone -> sw_req
+# cliapp -> "User Stories"
+# basicrailsapp -> "User Stories"
+# capstone -> "User Stories"
+
+# grow -> "Big O & Algorithmic Efficiency";
+
+
+## Guest Lectures
+
+# node[shape=invhouse]
+# example_guest_lecture[label="Guest Lecture"]
+
+# grow -> "
+#   * HTTP Caching
+#   * Deployment
+#   * Server administration and automation
+#   * How the DNS system works
+#   * How operating systems work
+#   * Dev Ops
+#   * Networks
+#   * DB/Security Best Practices
+#   * API Development
+#   * Integrating with APIs
+#   * Fundamental Gates and Circuits
+#   * Big Oh
+#   * Overview of the IT field and technologies
+#   * Interviewing and job searches
+#   * Compilers and interpreters
+#   * Transitioning from Junior to Midlevel developer
+#   * Getting paid what you're worth"
+# grow -> "Morals and Ethics of Software Development"
+# build -> "Database/Security Best Practices"
+
+overlap=false
+label="Topic List & Concept Dependencies\nNSS Cohort 3 Software Development Fundamentals"
+fontsize=12;
+}

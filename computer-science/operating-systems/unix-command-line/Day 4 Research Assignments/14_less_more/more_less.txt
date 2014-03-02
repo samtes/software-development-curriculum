@@ -1,0 +1,21 @@
+LESS AND MORE
+
+What?
+  -A command to READ ONLY the files.  Good for reading information like READMEs and examples.
+  -Common commands based on vi and more
+
+The difference?
+  -LESS allows you to move backwards, and doesn't load the whole file before displaying text
+  -LESS is better
+
+FIND OUT MORE
+	-man less
+	less --help
+	-h or H while reading a file with less
+
+
+USEFUL LINKS*
+  http://www.thegeekstuff.com/2010/02/unix-less-command-10-tips-for-effective-navigation/
+  
+
+*but seriously, just use less --help.  It's much prettier.

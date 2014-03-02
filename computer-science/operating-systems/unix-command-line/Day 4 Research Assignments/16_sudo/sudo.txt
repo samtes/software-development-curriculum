@@ -1,0 +1,25 @@
+DESCRIPTION- from the command line help section.
+
+
+First of all this command (sudo) is dangerous, and can cause irreperable harm to your machine..... in other words, be very careful when using.
+
+sudo allows a permitted user to execute a command as the superuser or another user, as specified in the
+sudoers file.  The real and effective uid and gid are set to match those of the target user as specified in
+the passwd file and the group vector is initialized based on the group file (unless the -P option was
+specified).  If the invoking user is root or if the target user is the same as the invoking user, no password
+is required.  Otherwise, sudo requires that users authenticate themselves with a password by default (NOTE: in
+the default configuration this is the user's password, not the root password).  Once a user has been
+authenticated, a timestamp is updated and the user may then use sudo without a password for a short period of
+time (5 minutes unless overridden in sudoers).
+
+When invoked as sudoedit, the -e option (described below), is implied.
+
+sudo determines who is an authorized user by consulting the file /private/etc//sudoers.  By running sudo with
+the -v option, a user can update the time stamp without running a command. The password prompt itself will
+also time out if the user's password is not entered within 0 minutes (unless overridden via sudoers).
+
+If a user who is not listed in the sudoers file tries to run a command via sudo, mail is sent to the proper
+authorities, as defined at configure time or in the sudoers file (defaults to root).  Note that the mail will
+not be sent if an unauthorized user tries to run sudo with the -l or -v option.  This allows users to
+determine for themselves whether or not they are allowed to use sudo.
+

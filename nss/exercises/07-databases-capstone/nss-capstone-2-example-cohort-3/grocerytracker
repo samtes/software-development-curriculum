@@ -1,0 +1,80 @@
+#!/usr/bin/env ruby
+
+require_relative 'lib/environment'
+require_relative 'lib/argument_parser'
+require_relative 'lib/interactions'
+
+# Router:
+class GroceryTracker
+  include Interactions
+  attr_reader :options
+
+  def initialize
+    @options = ArgumentParser.parse
+    Environment.environment = @options[:environment] || "production"
+    @options.delete(:environment)
+  end
+
+  def main
+    Environment.connect_to_database
+
+    command = options.delete(:command)
+    if command == "search"
+      search_term = ask("What do you want to search for?")
+      search_purchases_for(search_term)
+    elsif command == "add"
+      add_purchase()
+    elsif command == "list"
+      list_purchases()
+    elsif command == "edit"
+      if purchase = Purchase.find_by(id: options[:id])
+        purchase.update(options)
+        puts "Purchase #{purchase.id} is now named #{purchase.name}, with #{purchase.calories} calories and #{purchase.formatted_price} cost."
+      else
+        puts "Purchase #{options[:id]} couldn't be found."
+      end
+    else
+      puts "Command not implemented"
+    end
+  end
+
+  def list_purchases()
+    puts "All Purchases:"
+    puts Purchase.all
+  end
+
+  def search_purchases_for(search_term)
+    puts "You asked for: #{search_term}"
+    puts Purchase.search(search_term)
+  end
+
+  def add_purchase
+    error_messages = ArgumentParser.validate(options)
+    options[:category] = get_category()
+    if error_messages.empty?
+      purchase = Purchase.new(options)
+      purchase.save
+      puts "A purchase named #{purchase.name} (#{purchase.category.name}), with #{purchase.calories} calories and #{purchase.formatted_price} cost was created."
+    else
+      puts error_messages.join(" ")
+    end
+  end
+
+  def get_category
+    query = "Choose a category:"
+    categories = Category.all
+    categories.each_with_index do |category, i|
+      query << "#{i+1}. #{category.name}"
+    end
+    category_number = ask(query)
+    if category_number.empty?
+      Category.default
+    else
+      categories[category_number.to_i - 1]
+    end
+  end
+end
+
+
+grocerytracker = GroceryTracker.new()
+grocerytracker.main()

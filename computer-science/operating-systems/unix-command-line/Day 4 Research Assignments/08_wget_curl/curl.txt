@@ -1,0 +1,24 @@
+Wget and cURL are transfer utilities for downloading and uploading files from a server
+
+Wget
+	- must install (easiest way is to install Xcode)
+	- http://www.thegeekstuff.com/2009/09/the-ultimate-wget-download-guide-with-15-awesome-examples/
+
+cURL 
+	- already installed on Unix systems
+
+Resource - http://www.thegeekstuff.com/2012/04/curl-examples/
+
+curl www.example.com  (opens doc in Terminal)
+
+curl www.example.com > filename.html  (saves the doc as a file in pwd)
+
+curl -o mygettext.html http://www.gnu.org/software/gettext/manual/gettext.html  (saves content to a file with given filename)
+
+curl -O (save content to file with same filename as in url)
+
+multiple URLs  $ curl -O URL1 -O URL2
+
+ "-C -" (resume download where left off)
+
+ $ curl -z 21-Dec-11 http://www.example.com/yy.html (download file if modified after the specified time)

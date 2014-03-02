@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Unix Command Line Project</title>
+
+<link href="project.css" rel = "stylesheet" type="text/css">
+
+</head>
+
+<body>
+<h1>Prompting When Deleting</h1>
+<h2>Options -d and -i. </h2>
+<p><span style="color: rgb(239, 140, 18); ">There is no recycle bin or trash can when deleting files and directories on the command line.</span>
+<br />
+<br />
+Sometimes it is possible to retrieve files that were deleted from the command line, but there is <em>no guarantee</em>.
+<br />
+<br />
+To insure that an incorrect file, set of files or directory, the option <span style="color: rgb(239, 140, 18); ">-i</span> can be used so that Unix will prompt the user to confirm the deletion of each file (yes or no). The command <span style="color: rgb(239, 140, 18); ">-d</span> can be used to cancel the prompting.
+</p>
+
+<h2 id="options">An Alias</h2>
+<div id= "extra">
+<p>
+Some users will create an alias, which will make prompting the default:<br/>
+<!--<div style="padding: 50px; ">-->
+<span style="color: rgb(239, 140, 18); ">
+&nbsp;&nbsp;&nbsp;alias rm="rm -i"<br/>
+&nbsp;&nbsp;&nbsp;rm() { /bin/rm -i "$a" ; } <br /></span>
+<span style="font-size: .6em; "><em><a href = "http://en.wikipedia.org/wiki/Rm_(Unix)">from Wikipedia</a></em></span>
+</p>
+<!--</div>-->
+</div>
+
+<div class ="one">
+<em><a class="right" href="slide3.html">Next</a></em>
+</div>
+</body>
+</html>
