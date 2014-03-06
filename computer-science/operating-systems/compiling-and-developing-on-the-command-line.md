@@ -14,6 +14,7 @@ Note to self: There are notes in the "Day 4 Research Assignments" folder from wh
 * sudo
 * ps
 * tar
+* pbcopy
 
 Also:
 * $PATH
