@@ -218,3 +218,5 @@ To remove a directory, you must use the -r (recursive) flag:
 # Sources and Further Reading:
 
 * [Wikipedia: File System Permissions](http://en.wikipedia.org/wiki/File_system_permissions)
+http://mally.stanford.edu/~sr/computing/basic-unix.html
+http://cli.learncodethehardway.org/book/
