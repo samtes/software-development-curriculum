@@ -544,54 +544,6 @@
 ./nss/syllabus/44-socratic-questioning.pdf
 ./nss/syllabus/Breadth of Topics.graffle
 ./nss/syllabus/course overview.key
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/1280px-WTN_EVula_047-small.jpg
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/1280px-WTN_EVula_047.jpg
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/arrow_left-small.png
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/arrow_left.psd
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/arrow_right-small.png
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/arrow_right.psd
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/bg_cyan.jpg
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/geometric_element_03_dark-small.png
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/geometric_element_03_dark.psd
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/Image-R-small.png
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/Image-R.png
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/mt0@2x.jpg
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/official_logo-small.png
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/official_logo.png
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/Parthenon.at.Nashville.Tenenssee.01.jpg
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/Parthenon.at.Nashville.Tenenssee.png
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/ribbon_dark-small.png
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/ribbon_dark.psd
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/st1.jpg
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/st10.jpg
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/st11.jpg
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/st12.jpg
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/st14.jpg
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/st15-1.jpg
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/st15.jpg
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/st2.jpg
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/st3.jpg
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/st4.jpg
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/st5.jpg
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/st6.jpg
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/st7-1.jpg
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/st7.jpg
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/st8.jpg
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/st9.jpg
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/video_bg-small.png
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/video_bg.psd
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/www.ashleysegroves.com_615_248_7815_1.jpg
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Data/www.ashleysegroves.png
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Index.zip
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Metadata
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Metadata/BuildVersionHistory.plist
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Metadata/DocumentIdentifier
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/Metadata/Properties.plist
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/preview-micro.jpg
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/preview-web.jpg
-./nss/syllabus/Day 1 Cohort 3 - Course Overview and Cheers Exercise.key/preview.jpg
 ./nss/syllabus/Day 1.pdf
 ./nss/syllabus/full_topic_list.gv
 ./nss/syllabus/NSS Overarching Goals.oo3

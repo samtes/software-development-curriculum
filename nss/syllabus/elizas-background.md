@@ -34,7 +34,7 @@ I then started Eliza Brock Software and, a few years later, started teaching at 
 
 ~~~
 
-I do like code, too!
+Code shows up in these slides!
 
 ```ruby
 class Slide < Struct.new(:number, :classes, :html)
@@ -45,15 +45,3 @@ class Slide < Struct.new(:number, :classes, :html)
   end
 end
 ```
-
-~~~
-
-Really, I do!
-
-    class Slide < Struct.new(:number, :classes, :html)
-        def extract_title
-            return @title if @title
-            html.sub!(/<h(\d)>(.*)<\/h\1>/) { @title = $2; "" }
-            @title
-        end
-    end
