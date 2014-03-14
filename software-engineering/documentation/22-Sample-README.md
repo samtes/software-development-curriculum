@@ -1,3 +1,6 @@
+Example from Pete: https://github.com/peoplespete/FixMyCat
+
+----
 This is a sample README we wrote in class. What it lacks in grammer, it made up for in speed.
 
 # Grocery Price Tracker
