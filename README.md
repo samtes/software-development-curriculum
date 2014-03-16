@@ -11,8 +11,18 @@ The goal of this repository is to aggregate all of the course materials I've dev
 2. User those materials to make a single unified document for each topic.
 
 
-Note: Step 0 is going to result in a ton of (temporary) duplication, since the materials between cohorts are often very similar.
+Note: Step 0 has resulted in a ton of (temporary) duplication, since the materials between cohorts are often very similar.
 
+## Contributions:
+
+Contributions are quite welcome!
+
+We have a ton of articles that are documented in the issues list for this repo.
+
+
+
+
+## APIs
 
 http://developer.github.com/v3/repos/contents/
 
