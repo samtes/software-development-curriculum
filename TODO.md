@@ -219,27 +219,38 @@
 ./nss/exercises/xx-guest-lectures/guest_list_notes_cohort3_roundup.md
 ./nss/exercises/xx-guest-lectures/summary.md
 ./nss/syllabus
-./nss/syllabus/01-course-overview-and-cheers-exercise-cohort3.pdf
-./nss/syllabus/29-book-list.md
-./nss/syllabus/42-expected-student-progress-over-time.JPG
-./nss/syllabus/44-socratic-questioning.pdf
-./nss/syllabus/Breadth of Topics.graffle
-./nss/syllabus/course overview.key
-./nss/syllabus/Day 1.pdf
-./nss/syllabus/elizas-background-1-eliza.jpg
-./nss/syllabus/elizas-background-2-hume-fogg.jpg
-./nss/syllabus/elizas-background-3-rose-hulman.png
-./nss/syllabus/elizas-background-4-nashville.jpg
-./nss/syllabus/elizas-background-5-eliza-brock-software.png
-./nss/syllabus/elizas-background.md
-./nss/syllabus/full_topic_list.gv
-./nss/syllabus/NSS Overarching Goals.oo3
-./nss/syllabus/NSS Overarching Goals.oo3/contents.xml
-./nss/syllabus/NSS3 Topics.oo3
-./nss/syllabus/NSS3 Topics.oo3/contents.xml
-./nss/syllabus/README-cohort-1.md
-./nss/syllabus/README-cohort2.md
-./nss/syllabus/README-cohort3.md
-./nss/syllabus/Software Development Foundations Using Ruby on Rails-cohort1.docx
-./nss/syllabus/Topic Chart.graffle
-./nss/syllabus/topic_list.gv
+./nss/syllabus/*.md
+
+
+
+## Look into alternative markdown parsers:
+
+https://github.com/vmg/redcarpet
+
+https://github.com/vmg/redcarpet/issues/187
+
+http://octopress.org/docs/plugins/backtick-codeblock/
+
+---
+
+http://kramdown.gettalong.org/quickref.html
+
+http://kramdown.gettalong.org/
+
+https://github.com/gettalong/kramdown
+
+http://alexpeattie.com/blog/better-syntax-highlighting-with-rouge/
+
+http://alexpeattie.com/blog/github-style-syntax-highlighting-with-pygments/
+
+http://bitten.edgewall.org/prefs/pygments
+
+http://pygments.org/docs/styles/
+
+---
+
+http://htmlpreview.github.io/?https://github.com/rmcgibbo/slidedeck-example/blob/master/index.html
+
+https://raw.github.com/rmcgibbo/slidedeck/master/slidedeck/data/slides.md
+
+---
