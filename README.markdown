@@ -20,6 +20,10 @@ Contributions are quite welcome!
 We have a ton of articles that are documented in the issues list for this repo.
 
 
+## Notes:
+
+Files with the ".markdown" extension are purposely ignored by the courseware, so that we can use that extension for non-curriculum markdown files.
+
 ## Resources
 
 https://developers.google.com/chart/interactive/docs/examples
