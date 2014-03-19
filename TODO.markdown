@@ -1,4 +1,3 @@
-
 ./rails
 ./rails/.DS_Store
 ./rails/actionview
