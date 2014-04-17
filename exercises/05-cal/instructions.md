@@ -2,13 +2,15 @@
 
 The Unit 1 capstone for this course is the implementation of a subset of the Unix program, `cal`.
 
-### Objectives
+Objectives
+==========
 
   * Practice with Arrays, Hashes, and Strings
   * Develop the logic of a non-trivial algorithm
   * Programming to meet a (changing) specification
 
-### Requirements
+Requirements
+==========
 
   * Your program must have tests.  These test may be as high-level (integration tests) or as low-level (unit tests) as you wish.  I highly recommend a mix of tests.
   * You may not use any of the built-in Ruby classes that provide date, time, or calendar functionality.
@@ -18,7 +20,8 @@ The Unit 1 capstone for this course is the implementation of a subset of the Uni
   * As a capstone project, this should demonstrate *your* skills. Do not share code with your peers. You can help each other _think_ about the problems, but don't help each other code.
   * Your program should accept any combination of months and years between 1800 and 3000.
 
-### Suggested Implementation Order
+Suggested Implementation Order
+==========
 
 You will find this (and all future) programming projects much easier if you take the time to break it down into smaller parts.  I will suggest a breakdown that works well for me:
 
@@ -27,7 +30,8 @@ You will find this (and all future) programming projects much easier if you take
   3. Combine the powers of your Zeller's Congruence (which will tell you the real first day of the month) with your basic month printing from step 2.  Test the hell out of this!
   4. After you feel good about that and have had your first milestone reviewed, combine the ability to print each individual month, to allow you to print an entire year.  Hint: This is all about combining strings!
 
-### Resources:
+Resources:
+==========
 
 Wikipedia articles that may be of use:
 
@@ -101,12 +105,6 @@ and output the calendar for that year (2012):
                                                 30 31
 
 
-Deadline
-========
-This basic functionality should be completed over the holiday break (i.e. Completed by *Sunday, January 5th*)
+### Refactor
 
-As soon as the holiday break is over we will start working on refactoring, using your code from cal.
-
-## Final Milestone
-
-Finish cal by having it print a full year.
+This will largely be an in-class exercise.
