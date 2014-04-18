@@ -32,16 +32,3 @@ I then started Eliza Brock Software and, a few years later, started teaching at 
 
 ![](elizas-background-5-eliza-brock-software.png "Eliza Brock Software")
 
-~~~
-
-Code shows up in these slides!
-
-```ruby
-class Slide < Struct.new(:number, :classes, :html)
-  def extract_title
-    return @title if @title
-    html.sub!(/<h(\d)>(.*)<\/h\1>/) { @title = $2; "" }
-    @title
-  end
-end
-```
