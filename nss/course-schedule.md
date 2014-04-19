@@ -19,9 +19,9 @@ After a lunch break, students work on individual assignments and research.
 
 ### 1. Using Test-Driven Development To Learn Ruby / Using Ruby to Learn Test-Driven Development
 
-**Goal**: Demonstrate competence in standard-library Ruby
+**Goal**: Demonstrate competence in standard-library Ruby.
 
-**Capstone**: Implement a variant of `cal`
+**Capstone**: Implement a variant of `cal`.
 
 **Major Topics**:
 
@@ -39,9 +39,9 @@ After a lunch break, students work on individual assignments and research.
 
 ### 2. Exploring SQL and the Ruby Ecosystem
 
-**Goal**: Demonstrate mastery of basic git, project documentation (README, comments), writing unit tests, SQL and basic Ruby
+**Goal**: Demonstrate mastery of basic git, project documentation (README, comments), writing unit tests, SQL and basic Ruby.
 
-**Capstone**: TDD Command-line Ruby Application
+**Capstone**: TDD Command-line Ruby Application.
 
   * Week 4: Discuss and refactor Cal; Set theory;
   * Week 5: Introduction to SQL; Northwinds database; ERDs; Small SQL statement project; Choosing capstone projects
@@ -62,7 +62,7 @@ After a lunch break, students work on individual assignments and research.
 
 **Goal**: Students form an understanding of the depth and breadth of the field while meeting many of the practicing developers in Nashville.
 
-**Capstone**: Develop a resume-worthy Rails application using TDD
+**Capstone**: Develop a resume-worthy Rails application using TDD.
 
 Lectures in this final portion of the class will be delivered primarily by mentors and community members on their individual areas of expertise.  Other lectures will be pulled from material in the topic list that won't have been covered in previous units.
 
