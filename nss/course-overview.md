@@ -28,7 +28,7 @@ You will learn to:
 
 In order to attain the goals above, quite a few skills are required.
 
-  * To Building on Existing Rails Applications, you must:
+  * To Build on Existing Rails Applications, you must:
       * Understand How To Build Simple Rails Applications, which in turn requires:
           *  A full understanding of Ruby the language, before embarking on Rails the framework
       * Use Test Driven Development to validate the results of your work
@@ -53,8 +53,6 @@ In order to attain the goals above, quite a few skills are required.
 ## The Plan
 
 4 units over 12 weeks
-
-~~~
 
 * Unit 1: TDD of Ruby data structures
 * Unit 2: Explore Databases
