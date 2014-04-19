@@ -10,8 +10,8 @@ In my view, programming is, primarily, an analytical process wherein we take hum
 
 My favorite way to illustrate this is with the Train Problem.
 
-Train A leaves the station at 2:15, going 20 miles per hour  
-Train B Leaves the station at 3:00, going 45 miles per hour  
+Train A leaves the station at 2:15, going 20 miles per hour.  
+Train B Leaves the station at 3:00, going 45 miles per hour.  
 When do they collide?
 
 ### The Hard Way:
