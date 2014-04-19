@@ -1,6 +1,0 @@
-grading_repo: git@github.com/foo/bar
-milestones:
-  - name: strings
-    test: about_strings
-  - name: numbers
-    test: about_numbers
