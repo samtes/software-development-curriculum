@@ -10,18 +10,17 @@
 ### General
 Modern programming languages allow you to add things to arrays unlike older programming languages which would allocate memory automatically.  
 Because of Big O, arrays are good for pushing and popping (stack and queues) but not for searching because you need to remove everything in front or behind to find something specific.  
-Range class saves memory rather than taking up memory for all numbers in an array.  
 Parallel assignment if frowned upon because it’s not intuitive.  
-EOS = heredoc  
-Backus-Naur-Form (BNF) is used to translate into symbols  
-RFC standards - actual specs  
+EOS is used to specify the end of a string in a Ruby heredoc.    
+Backus-Naur-Form (BNF) is used to to describe the sytnax of a programming language.  
+RFC standards are the actual specs, read them!
 The value of a symbol is the symbol, it’s not representing anything else like a variable.  
-Ruby garbage collector called ‘mark and sweep’ - primitive  
+Ruby garbage collector called ‘mark and sweep’ - primitive.    
 Ruby is weakly typed which means you don’t have to specify a data type when creating something.
-ERD diagram to describe databases.   
+ERD diagrams describe databases.   
 
 ### Symbols
-Symbols are global  
+Symbols are global.    
 Constants allow you to change values. You can change the string to another version of the string, but you can’t change that string to nil.  
 Constants in Ruby are symbols.  
 Constants hold a value, symbols don’t hold values. Think of symbols as tokens.  
@@ -29,12 +28,15 @@ Constants hold a value, symbols don’t hold values. Think of symbols as tokens.
 ### RegEX
 Carrots inside a bracket looks for things that are not a match, a carrot outside a bracket means match at the beginning.
 
+### Range
+Range class saves memory rather than taking up memory for all numbers in an array.    
+
 ### Booleans
 Order of operation is different between ‘and’ and ‘&&’.
 == checks if characters are the same.  
 
 ### Methods
-Guards aka a short circuit take methods on a different path and allow for explicit returns. For example, return nil unless i.is_a? . 
+Guards aka a short circuit take methods on a different path and allow for explicit returns. For example, return nil unless i.is_a?.   
 self.class.my_method calls a class method on the class itself.   
 array.map(&:method) '&' just means to call this method. 
 array.inject(0, :+) Ruby knows to add the array items.  
@@ -47,7 +49,7 @@ skip allows you to skip a test in mini test.
 Acceptance testing = integration testing in Rails.  
 
 ### IO
-You must close a file when you open it, if not, the file can’t be opened anywhere else
+You must close a file when you open it, if not, the file can’t be opened anywhere else.  
 
 ### Data Types - Linked Lists
 Characters are secretly integers, and integers are secretly bits.   
@@ -59,7 +61,7 @@ The linked list object only knows about the first item.
 Bubble up until something catches them.  
 
 ### Git
-'git add -p' shows changes
+'git add -p' shows changes.  
 
 
 
