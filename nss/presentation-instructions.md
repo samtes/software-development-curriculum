@@ -14,7 +14,7 @@ Each presentation should take approximately 5 minutes and cover the following ma
 
 ## Important points to remember:
 
-* You should use the slide deck in this folder (or a similar one of your own creation) to assist in your presentation.  Filling in the presentation template I have provided (presentation-template.html, in this directory) should take you no more than 5 minutes.
+* You should use the slide deck in this folder (or a similar one of your own creation) to assist in your presentation.  Filling in the presentation template I have provided ([presentation-template.html](https://raw.githubusercontent.com/elizabrock/software-development-curriculum/master/nss/presentation-template.html), in this directory) should take you no more than 5 minutes.
 * If you have a slide deck through an online service, ensure that you have a local copy of it just in case.
 * Make sure that you have an appropriate dongle for your laptop (or that one will be available to you the day of the presentations).
 * Speak loudly and clearly, facing your audience.
