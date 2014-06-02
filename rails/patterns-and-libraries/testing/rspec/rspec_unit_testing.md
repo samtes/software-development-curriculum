@@ -2,41 +2,41 @@ RSpec Unit Testing
 ==================
 
 ## How To Start
-  ### Resources To Reference
+### Resources To Reference
 
-    - [Relish-App](https://relishapp.com/rspec)
-    - [RSpec Github](https://github.com/rspec/rspec)
-    - [ThoughtBot](http://robots.thoughtbot.com/how-we-test-rails-applications)
-    - [Treehouse Blog](http://blog.teamtreehouse.com/an-introduction-to-rspec)
+  - [Relish-App](https://relishapp.com/rspec)
+  - [RSpec Github](https://github.com/rspec/rspec)
+  - [ThoughtBot](http://robots.thoughtbot.com/how-we-test-rails-applications)
+  - [Treehouse Blog](http://blog.teamtreehouse.com/an-introduction-to-rspec)
 
-    I found this the most useful:
-    - [Code School](https://www.codeschool.com/courses/testing-with-rspec)
+  I found this the most useful:
+  - [Code School](https://www.codeschool.com/courses/testing-with-rspec)
 
-  ### In Your Project
+### In Your Project
 
-    The RSpec Gem is really a collection of three separate Gems:
-    - rspec-core
-    - rspec-expectations
-    - rspec-mocks
+  The RSpec Gem is really a collection of three separate Gems:
+  - rspec-core
+  - rspec-expectations
+  - rspec-mocks
 
-    To get started, either run `Gem install rspec`, or put `rspec` in your
-    Gemfile. If you added `rspec` to the Gemfile, don't forget to run `bundle install`
-    in the terminal in your project's directory root.
+To get started, either run `Gem install rspec`, or put `rspec` in your
+Gemfile. If you added `rspec` to the Gemfile, don't forget to run `bundle install`
+in the terminal in your project's directory root.
 
-  ### File Directory Structure
-    RSpec testing will be set up in the `spec` directory in the project root. Inside
-    the spec directory you will have subdirectories such as:
-    -  models
-    -  features
-    -  mailers
-    -  support
-    -  controllers
+### File Directory Structure
+  RSpec testing will be set up in the `spec` directory in the project root. Inside
+  the spec directory you will have subdirectories such as:
+  -  models
+  -  features
+  -  mailers
+  -  support
+  -  controllers
 
-    In addition to these directories you will usually have a `spec_helper.rb` file
-    which contains test helper methods, and anything that needs to be required for
-    any of your tests to run, to avoid having to require files more than once in
-    different locations. In a rails project with RSpec the spec helper will be
-    where you `require 'rspec/rails'` and `require 'rspec/autorun'`.
+  In addition to these directories you will usually have a `spec_helper.rb` file
+  which contains test helper methods, and anything that needs to be required for
+  any of your tests to run, to avoid having to require files more than once in
+  different locations. In a rails project with RSpec the spec helper will be
+  where you `require 'rspec/rails'` and `require 'rspec/autorun'`.
 
 ## Why Unit Test?
   Unit testing is aimed at proving that individual methods you write work as they
@@ -70,16 +70,18 @@ RSpec Unit Testing
 
 ## Examples
 
-  `describe Person do
-    it "is named Bob" do
-      person = Person.new
-      person.name.should == 'Bob'
-    end
-    it "is not named sue" do
-      person = Person.new
-      person.name.should_not == 'Sue'
-    end
-  end`
+```ruby
+describe Person do
+  it "is named Bob" do
+    person = Person.new
+    person.name.should == 'Bob'
+  end
+  it "is not named sue" do
+    person = Person.new
+    person.name.should_not == 'Sue'
+  end
+end
+```
 
   In this example, the whole block of code would be a **spec**. Each `it` block is a
   seperate **example**. The `person.name.should == 'Bob'` is an **expectation**.
@@ -89,8 +91,9 @@ RSpec Unit Testing
   Gems such as Active Record do a lot of validation for you, that doesn't mean you
   shouldn't test it. Here is a simple example of testing one of those validations:
 
-  `it {should validate_uniqueness_of :email}`
-
+```ruby
+  it {should validate_uniqueness_of :email}
+```
   As you can see, reading the test speaks for itself, which is one of the advantages of RSpec.
 
 ## More Features
