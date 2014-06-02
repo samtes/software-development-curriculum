@@ -1,7 +1,7 @@
 RSpec Unit Testing
 ==================
 
-##How To Start
+## How To Start
   ### Resources To Reference
 
     - [Relish-App](https://relishapp.com/rspec)
@@ -38,7 +38,7 @@ RSpec Unit Testing
     different locations. In a rails project with RSpec the spec helper will be
     where you `require 'rspec/rails'` and `require 'rspec/autorun'`.
 
-##Why Unit Test?
+## Why Unit Test?
   Unit testing is aimed at proving that individual methods you write work as they
   are supposed to. These methods in rails are generally going to be on the models,
   but not always, as there are reasons to Unit Test helper methods as well.
@@ -52,14 +52,14 @@ RSpec Unit Testing
   Projects can take a long time to finish. Unit tests are a way of showing progress
   on a large project, and will ultimately lead to far fewer bugs down the road.
 
-##Why RSpec?
+## Why RSpec?
   RSpec is often preferred by Rails Developers over the standard Test::Unit
   for a few reasons, however a lot of times the Test framework you use
   is a matter of personal preference. The output from RSpec is more readable by
   a human. The syntax you write the tests in is also more readable, which will
   help you not only write tests faster, but understand other tests better.
 
-##Terminology
+## Terminology
   RSpec has a few specific ways of referring to tets, that you may not be used to. The first
   may be slightly obvious, but the word **spec** is used almost entirely instead of **test**. A spec
   being the entire spec file. Every **it** statement is called an **example**. And the
@@ -68,7 +68,7 @@ RSpec Unit Testing
   could `should` or `should_not` among others.
 
 
-##Examples
+## Examples
 
   `describe Person do
     it "is named Bob" do
@@ -93,7 +93,7 @@ RSpec Unit Testing
 
   As you can see, reading the test speaks for itself, which is one of the advantages of RSpec.
 
-##More Features
+## More Features
   RSpec is packed with features, and you can take it as far as you would like. There are lots
   of shortcuts, but this should get you started. If you ever find yourself repeating code in a test,
   go look up the best way to handle that, becuase there will be a way.
