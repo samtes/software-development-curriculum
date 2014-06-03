@@ -5,4 +5,4 @@ The Rails router recognizes URLs and dispatches them to a controller's action. I
 
 Resources
 ---------
-http://tutorials.jumpstartlab.com/topics/routes/router.html
+The Rails Router http://tutorials.jumpstartlab.com/topics/routes/router.html
