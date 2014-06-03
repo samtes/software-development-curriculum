@@ -1,8 +1,5 @@
 The Purpose of the Rails Router
 ===============================
-The Rails router recognizes URLs and dispatches them to a controller's action. It can also generate paths and URLs, avoiding the need to hardcode strings in your views.
+Routers, as their name indicate are dispathsers. They take in the URL which is sent from the browser and route it to the correct action(method) in the coorisponding controller. They can also be used to generate paths and URLs by to avoide the need to hardcode strings in the views.
 
-
-Resources
----------
-The Rails Router http://tutorials.jumpstartlab.com/topics/routes/router.html
+There is a detailed explanation about Rails Routers in the rails documantation: http://tutorials.jumpstartlab.com/topics/routes/router.html
