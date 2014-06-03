@@ -12,12 +12,13 @@ Rails Router
 ------------
 Routers in Rails are, as their name indicates dispathsers. They take in the URL which is sent from the browser and route it to the correct action(method) in the coorisponding controller. They can also be used to generate paths and URLs by to avoide the need to hardcode strings in the views.
 
-#Resources
-
+Resources:
+----------
 General concept of routers: http://en.wikipedia.org/wiki/Router_(computing)
 
 Detailed explanation about Rails Routers can be found in the rails documantation: http://guides.rubyonrails.org/routing.html
 
-#Further Reading:
+Further Reading:
+----------------
 
 Very helpful article about rails routers can be found: http://tutorials.jumpstartlab.com/topics/routes/router.html
