@@ -16,14 +16,17 @@ CRUD, Verbs, and Actions
 ------------------------
 In Rails, a resourceful route provides a mapping between HTTP verbs and URLs to controller actions. By convention, each action also maps to particular CRUD operations in a database. A single entry in the routing file, such as: <resources :photos> creates seven different routes in your application, all mapping to the Photos controller:
 
-HTTP Verb	Path	Controller#Action	Used for
-GET	/photos	photos#index	display a list of all photos
-GET	/photos/new	photos#new	return an HTML form for creating a new photo
-POST	/photos	photos#create	create a new photo
-GET	/photos/:id	photos#show	display a specific photo
-GET	/photos/:id/edit	photos#edit	return an HTML form for editing a photo
-PATCH/PUT	/photos/:id	photos#update	update a specific photo
-DELETE	/photos/:id	photos#destroy	delete a specific photo
+| HTTP Verb | Path             | Controller#Action | Used for                                     |
+|-----------|------------------|-------------------|----------------------------------------------|
+| GET       | /photos          | photos#index      | display a list of all photos                 |
+| GET       | /photos/new      | photos#new        | return an HTML form for creating a new photo |
+| POST      | /photos          | photos#create     | create a new photo                           |
+| GET       | /photos/:id      | photos#show       | display a specific photo                     |
+| GET       | /photos/:id/edit | photos#edit       | return an HTML form for editing a photo      |
+| PATCH/PUT | /photos/:id      | photos#update     | update a specific photo                      |
+| DELETE    | /photos/:id      | photos#destroy    | delete a specific photo                      |
+
+And whenever we want to see the routs that are created created, we can run the <rake routes> command in the command line in the project directory and we can see all the routes. 
 
 Resources:
 ----------
