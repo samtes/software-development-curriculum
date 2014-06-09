@@ -14,7 +14,7 @@ Routers in Rails are, as their name indicates are dispathsers. They take in the 
 
 CRUD, Verbs, and Actions
 ------------------------
-In Rails, a resourceful route provides a mapping between HTTP verbs and URLs to controller actions. By convention, each action also maps to particular CRUD operations in a database. A single entry in the routing file, such as: <resources :photos> creates seven different routes in your application, all mapping to the Photos controller:
+In Rails, a resourceful route provides a mapping between HTTP verbs and URLs to controller actions. By convention, each action also maps to particular CRUD operations in a database. A single entry in the routing file, such as: 'resources :photos' creates seven different routes in your application, all mapping to the Photos controller:
 
 | HTTP Verb | Path             | Controller#Action | Used for                                     |
 |-----------|------------------|-------------------|----------------------------------------------|
@@ -26,13 +26,15 @@ In Rails, a resourceful route provides a mapping between HTTP verbs and URLs to 
 | PATCH/PUT | /photos/:id      | photos#update     | update a specific photo                      |
 | DELETE    | /photos/:id      | photos#destroy    | delete a specific photo                      |
 
-And whenever we want to see the routs that are created created, we can run the <rake routes> command in the command line in the project directory and we can see all the routes. 
+And whenever we want to see the routs that are created created, we can run the 'rake routes' command in the command line in the project directory and we can see all the routes. 
 
 Resources:
 ----------
 General concept of routers: http://en.wikipedia.org/wiki/Router_(computing)
 
 Detailed explanation about Rails Routers can be found in the rails documantation: http://guides.rubyonrails.org/routing.html
+
+CRUD verbs and actions for rails: http://guides.rubyonrails.org/routing.html#crud-verbs-and-actions
 
 Further Reading:
 ----------------
