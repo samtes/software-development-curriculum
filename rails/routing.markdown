@@ -10,7 +10,20 @@ In the same way, just like the network routing device, software applications als
 
 Rails Router
 ------------
-Routers in Rails are, as their name indicates dispathsers. They take in the URL which is sent from the browser and route it to the correct action(method) in the coorisponding controller. They can also be used to generate paths and URLs by to avoide the need to hardcode strings in the views.
+Routers in Rails are, as their name indicates are dispathsers. They take in the URL and their associated verbs which is sent from the browser and route it to the correct action(method) in the coorisponding controller. They can also be used to generate paths and URLs to avoide the need to hardcode strings in the views. Rails use the CRUD verbs format. 
+
+CRUD, Verbs, and Actions
+------------------------
+In Rails, a resourceful route provides a mapping between HTTP verbs and URLs to controller actions. By convention, each action also maps to particular CRUD operations in a database. A single entry in the routing file, such as: <resources :photos> creates seven different routes in your application, all mapping to the Photos controller:
+
+HTTP Verb	Path	Controller#Action	Used for
+GET	/photos	photos#index	display a list of all photos
+GET	/photos/new	photos#new	return an HTML form for creating a new photo
+POST	/photos	photos#create	create a new photo
+GET	/photos/:id	photos#show	display a specific photo
+GET	/photos/:id/edit	photos#edit	return an HTML form for editing a photo
+PATCH/PUT	/photos/:id	photos#update	update a specific photo
+DELETE	/photos/:id	photos#destroy	delete a specific photo
 
 Resources:
 ----------
